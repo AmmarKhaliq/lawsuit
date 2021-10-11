@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/buzzware/public_html/lawsuit
+    - if [ ! -d "$DEPLOYPATH" ]; then
+    - /bin/mkdir $DEPLOYPATH
+    - fi
+    - if [ "$(/bin/ls -A $DEPLOYPATH)" ]; then
+    - /bin/mv $DEPLOYPATH/uploads ~/uploads
+    - /bin/rm -R $DEPLOYPATH/*
+    - /bin/mv ~/uploads $DEPLOYPATH/uploads
+    - fi
+    - /bin/cp -R * $DEPLOYPATH/

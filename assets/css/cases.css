@@ -1,0 +1,173 @@
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+.label-ls {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.input-ls {
+	font-size: 0.8rem;
+	border: 0;
+	height: 50px;
+}
+
+.input-ls::placeholder,
+.input-ls-table::placeholder {
+	text-transform: uppercase;
+}
+
+.nav-pills-ls .nav-link {
+	color: #000000;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 10px 10px !important;
+}
+
+.nav-pills-ls .nav-link.active,
+.nav-pills-ls .show > .nav-link {
+	color: #000000;
+	background-color: #bfdbff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/* general tab */
+
+.medical-section {
+	font-size: 1.6rem;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+/* submit buttons */
+
+.submit-buttons-ls {
+	background-color: rgb(191, 219, 255);
+	color: #ffffff;
+	border: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.email-submit-ls {
+	background-color: #7ba1e2 !important;
+}
+.button-form {
+	margin-right: 1.2rem;
+}
+
+/* issues tab */
+
+.table-ls {
+	border-collapse: collapse;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+.table-ls thead th {
+	text-transform: uppercase;
+	border: 0 !important;
+	background-color: #bfdbff;
+	font-weight: 400;
+}
+
+.input-ls-table {
+	font-size: 0.8rem;
+	border: 0;
+	padding: 0;
+}
+
+.table-bordered td,
+.table-bordered th {
+	border: 0;
+	border-top: 1px solid #dee2e6;
+}
+
+.card-ls {
+	border-radius: 1em;
+}
+
+/* preferences */
+
+.button-wrapper {
+	position: relative;
+	text-align: center;
+}
+
+.button-wrapper span.label {
+	position: relative;
+	z-index: 0;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(180deg, #ffffff, #f3f5f8);
+	justify-content: center;
+	cursor: pointer;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 50px;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+}
+
+#upload {
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.save-now-button,
+.form-buttons {
+	background-color: #7ba1e2;
+	color: #ffffff;
+	border: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1rem;
+	padding: 0.8rem 1.2rem;
+}
+
+.form-buttons {
+	background-color: #bfdbff !important;
+	margin-right: 1.2rem;
+}
+
+/* form */
+
+.rounded-ls {
+	border-radius: 10px;
+}
+
+.Agreement-section {
+	padding: 1rem 1.2rem;
+}
+
+.Agreement-section > p {
+	margin: 0;
+}
+
+.Agreement-section > p > a {
+	text-transform: capitalize;
+	font-size: 0.8rem;
+	text-decoration: none;
+	color: #000000;
+}
+
+.form-select {
+	background-color: #ffffff;
+	color: #000000;
+	text-transform: capitalize;
+	border-radius: 25px;
+	font-size: 0.9rem;
+	border: 1px solid #bfdbff;
+	/* width: 200px; */
+}
