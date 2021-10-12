@@ -10,7 +10,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/caseshome'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'caseshome'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Home.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide"> Cases</span>
         </a>
@@ -19,7 +19,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/schedule'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'schedule'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Schedule.png" class="img-fluid icon-size"
             alt="">
           <span class="ml-5 text-sidenav-hide"> Schedule</span>
@@ -29,7 +29,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/mapp'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'mapp'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Map.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Map</span>
         </a>
@@ -38,7 +38,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/todos'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'todos'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/To-dos.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> To-dos</span>
         </a>
@@ -47,7 +47,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/messages'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'messages'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Messages.png" class="img-fluid icon-size"
             alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Messages</span>
@@ -57,7 +57,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/addressbook'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'addressbook'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Address-Book.png" class="img-fluid icon-size"
             alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Address Book</span>
@@ -67,7 +67,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/forms'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'forms'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Forms.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Forms</span>
         </a>
@@ -76,7 +76,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/library'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'library'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Library.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Library</span>
         </a>
@@ -85,7 +85,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/finance'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'finance'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Finance.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Finance</span>
         </a>
@@ -94,7 +94,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/courts'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'courts'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Courts.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Courts</span>
         </a>
@@ -103,7 +103,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/staff'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'staff'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Staff.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Staff</span>
         </a>
@@ -112,7 +112,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/preferences'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'preferences'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Preference.png" class="img-fluid icon-size"
             alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Preffernces</span>
@@ -122,7 +122,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/stopwatch'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'stopwatch'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Stop-Watch.png" class="img-fluid icon-size"
             alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Stop Watch</span>
@@ -132,7 +132,7 @@
 
       <li class="d-flex">
 
-        <a class="nav-link" href="<?php echo base_url() . 'site/support'; ?>">
+        <a class="nav-link" href="<?php echo base_url() . 'support'; ?>">
           <img src="<?php echo base_url() . 'assets/'; ?>images/sidebar/Support.png" class="img-fluid icon-size" alt="">
           <span class="ml-5 text-sidenav-hide text-dark"> Support</span>
         </a>
@@ -192,7 +192,7 @@
               <div class="dropdown-menu dropdown-menu-ls" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Dashboard</a>
                 <a class="dropdown-item" href="#">Edit Profile</a>
-                <a class="dropdown-item" href="<?php echo base_url() . 'site/'; ?>">Log Out</a>
+                <a class="dropdown-item" href="<?php echo base_url() . ''; ?>">Log Out</a>
               </div>
             </li>
 
