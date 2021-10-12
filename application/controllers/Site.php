@@ -9,6 +9,7 @@ class Site extends CI_Controller
 		parent::__construct();
 	}
 
+
 	public function index()
 	{
 		$this->load->model("Site_model");
@@ -26,7 +27,7 @@ class Site extends CI_Controller
 		}elseif($seg1!="" && method_exists($this->Site_model,$seg1)){
 			$this->Site_model->{$seg1}();
 		}else{
-			echo "Not found!";
+			echo "Not found! Please try again ...";
 		}
 	}
 	
