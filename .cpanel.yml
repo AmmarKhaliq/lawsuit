@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/buzzware/public_html/lawsuit
+    - export DEPLOYPATH=/home3/buzzware/public_html/lawsuit_dev
     - if [ ! -d "$DEPLOYPATH" ]; then
     - /bin/mkdir $DEPLOYPATH
     - fi
