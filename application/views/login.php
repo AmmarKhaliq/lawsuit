@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-12 col-sm-6">
                     <div class="main-login bg-white rounded p-4">
-                        <form action="<?php echo base_url() . 'site/caseshome'; ?>" method="post">
+                        <form action="<?php echo base_url() . 'caseshome'; ?>" method="post">
                             <input type="email" required class="form-control mb-4 my-form-control" placeholder="User name / Email">
                             <input type="password" required class="form-control mb-4 my-form-control" placeholder="password">
                             <a class="text-white">

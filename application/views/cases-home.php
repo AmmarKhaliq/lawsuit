@@ -59,10 +59,10 @@
 
         <div class="row justify-content-center justify-content-md-between align-items-center">
             <div class="col-12 col-md-8 col-xl-4">
-                <a href="<?php echo base_url() . 'site/newcases'; ?>" class="text-decoration-none">
+                <a href="<?php echo base_url() . 'newcases'; ?>" class="text-decoration-none">
                     <button class="btn new-add-book">new case</button>
                 </a>
-                <a href="<?php echo base_url() . 'site/casesharing'; ?>" class="text-decoration-none">
+                <a href="<?php echo base_url() . 'casesharing'; ?>" class="text-decoration-none">
                     <button class="btn new-add-book">case requests</button>
                 </a>
             </div>
